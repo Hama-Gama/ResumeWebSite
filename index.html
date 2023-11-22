@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Aranov</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                  
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon' ></i>Главная
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Профиль
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Образование
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase nav__icon'></i>Опыт работы
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bxs-award nav__icon'></i>Сертификат
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>Рекомендательное письмо
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfilKA.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">Аркаев <b>Хамит</b></h1>
+                                <h3 class="home__profession">Веб разработчик</h3>
+
+                                
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Скачать Резюме</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> г.Сатпаев, Улытауская обл. Казахстан
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxs-envelope home__icon' ></i> ardager121@mail.ru
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> 8 707 891 91 81
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Социальные сети</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="#" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @hama-web
+                            </a>
+
+                            <a href="#" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook-circle social__icon' ></i> @hama-web
+                            </a>
+
+                            <a href="#" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> @hama-web
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Профиль</h2>
+
+                        <p class="profile__description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Deleniti dolore voluptas totam dicta unde eligendi odio, 
+                            repellat voluptatem reprehenderit aliquam sequi cum quae ipsa 
+                            illum at consequatur laboriosam. Consequatur quo sed velit 
+                            soluta tenetur alias ut magni ex. Hic, natus!
+                        </p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Образование</h2>
+
+                        <div class="education__container bd-grid">
+
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Бакалавр</h3>
+                                    <span class="education__studies">ВУЗ</span>
+                                    <span class="education__year">2015 - 2019</span>
+                                </div>
+                            </div>
+
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Веб разработчик</h3>
+                                    <span class="education__studies">Школа it</span>
+                                    <span class="education__year">2017 - 2020</span>
+                                </div>
+                            </div>
+
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Школа программирования</h3>
+                                    <span class="education__studies">Онлайн</span>
+                                    <span class="education__year">2018 - 2019</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Навыки</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SASS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JavaScript
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Angular
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Firebase
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Опыт работы</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Веб дизайнер</h3>
+                                    <div class="experience__company">2019-2022 | Amanat-IT</div>
+                                    <p class="experience__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Laboriosam corrupti perferendis, quidem odio molestiae 
+                                        autem nobis! Illum sed, et delectus cupiditate perferendis 
+                                        at exercitationem deleniti est provident porro hic voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Веб разработчик</h3>
+                                    <div class="experience__company">2014-2017 | ABC-soft</div>
+                                    <p class="experience__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        autem nobis! Illum sed, et delectus cupiditate perferendis 
+                                        at exercitationem deleniti est provident porro hic voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Q&A Test Engeneer</h3>
+                                    <div class="experience__company">2015-2018 | SABR Solution</div>
+                                    <p class="experience__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        at exercitationem deleniti est provident porro hic voluptates?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Сертификаты</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Lorem ipsum dolor sit amet (2017)</h3>
+                                <p class="sertificate__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, et.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Lorem ipsum dolor sit amet (2015)</h3>
+                                <p class="sertificate__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, et.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Lorem ipsum dolor sit amet (2012)</h3>
+                                <p class="sertificate__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, et.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">Рекоментальное письмо</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Тех директора</span>
+                                <h3 class="references__title">Ануар Бакенович</h3>
+                                <ul class="references__contact">
+                                    <li>Тел: 8 705 444 55 22</li>
+                                    <li>Email: user@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Тим лид</span>
+                                <h3 class="references__title">Дарья Тарасова</h3>
+                                <ul class="references__contact">
+                                    <li>Тел: 8 705 444 55 22</li>
+                                    <li>Email: user@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Языки</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Казахский
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Русский
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Английский
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Интересы</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name">Музыка</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon' ></i>
+                                <span class="interests__name">Путешествие</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon' ></i>
+                                <span class="interests__name">Книги</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interests__name">Спорт</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
